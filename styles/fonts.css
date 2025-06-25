@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Mont";
+  src: url("./assets/fonts/Mont-HeavyDEMO.otf") format("opentype");
+}
+.customFont {
+  font-family: "Mont", sans-serif;
+}
