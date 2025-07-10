@@ -3,6 +3,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  
 }
 .primaryColor1 {
   color: #2d60ff;
@@ -21,6 +22,37 @@ body {
 }
 .cardBottomBgColor {
   background: #fafafa;
-background: linear-gradient(180deg,rgba(250, 250, 250, 0.25) 0%, rgba(10, 6, 244, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.25) 0%,
+    rgba(10, 6, 244, 1) 100%
+  );
+}
 
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+
+/* for Webkit (Chrome, Edge, Safari) */
+.custom-scroll::-webkit-scrollbar {
+  height: 8px;
+  
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #2d60ff; /* Tailwind's blue-500 */
+  border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #2d60ff; /* Tailwind's blue-600 */
 }
