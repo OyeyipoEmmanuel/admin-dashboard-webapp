@@ -15,7 +15,8 @@ function App() {
   return (
     <div className="lg:relative w-full">
       <Navbar />
-      <div className="h-screen w-full lg:max-w-[calc(100%-260px)] bg-[#F5F7FA]  lg:absolute lg:top-[5.5rem] lg:left-[260px] lg:pl-8 lg:pt-6 mt-20 pt-6 px-6 lg:mt-0 ">
+      
+      <div className="min-h-screen w-full lg:max-w-[calc(100%-260px)] bg-[#F5F7FA] lg:absolute lg:top-[5.5rem] lg:left-[260px] lg:pl-8 lg:pt-6 mt-20 pt-6 px-6 lg:mt-0">
         <Routes>
           <Route path="/" element={<Dashboard/>}/>
           <Route path="/transactions" element={<Transactions/>}/>
