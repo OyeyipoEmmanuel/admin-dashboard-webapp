@@ -3,6 +3,8 @@ import VirtualCardDesign from "../../components/VirtualCardDesign";
 import PageLayouts from "../../components/PageLayouts";
 import { NavLink } from "react-router-dom";
 import MyExpenses from "./MyExpenses";
+import AllTransaction from "./AllTransaction";
+import ExpenseStat from "../dashboard/ExpenseStat";
 
 const Transactions = () => {
   return (
@@ -12,9 +14,12 @@ const Transactions = () => {
           <VirtualCardDesign />
         </section>
         <section className="mt-6 lg:mt-0">
-          <MyExpenses />
+          <ExpenseStat/>
+          
         </section>
       </PageLayouts>
+
+      <AllTransaction/>
       <section></section>
     </main>
   );
