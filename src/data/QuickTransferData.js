@@ -1,9 +1,9 @@
-import img1 from "../assets/images/recentTF1.svg"
-import img2 from "../assets/images/recentTF2.svg"
-import img3 from "../assets/images/recentTF3.svg"
-import img4 from "../assets/images/recentTF4.svg"
-import img5 from "../assets/images/recentTF5.svg"
-import img6 from "../assets/images/recentTF6.svg"
+import img1 from "../assets/optimized-images/recentTF1.svg"
+import img2 from "../assets/optimized-images/recentTF2.svg"
+import img3 from "../assets/optimized-images/recentTF3.svg"
+import img4 from "../assets/optimized-images/recentTF4.svg"
+import img5 from "../assets/optimized-images/recentTF5.svg"
+import img6 from "../assets/optimized-images/recentTF6.svg"
 
 export const QUICK_TF_DATA = [
   {
