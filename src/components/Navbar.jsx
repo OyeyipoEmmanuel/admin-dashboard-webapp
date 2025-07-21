@@ -242,7 +242,7 @@ const Navbar = () => {
         </section>
       </div>
 
-      <section className="fixed top-0 lg:left-63 p-6 lg:max-h-22 w-full lg:px-8 items-center flex justify-between bg-white z-50">
+      <section className="fixed top-0 lg:left-63 p-6 lg:max-h-22 w-full lg:w-[calc(100%-252px)] lg:px-8 items-center flex justify-between bg-white z-50">
         <div className="flex items-center space-x-5">
           <HiMiniBars3CenterLeft
             className="text-3xl primaryColor2 lg:hidden cursor-pointer"

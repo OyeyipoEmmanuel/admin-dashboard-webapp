@@ -4,7 +4,7 @@ import { CiCreditCard1 } from "react-icons/ci";
 import { SlPaypal } from "react-icons/sl";
 import { LuBadgeDollarSign } from "react-icons/lu";
 
-const RecentTransactions = () => {
+const PreviewRecentTransactions = () => {
   return (
     <div>
       <h1 className="py-2 primaryColor2 text-xl font-semibold">
@@ -56,4 +56,4 @@ const RecentTransactions = () => {
   );
 };
 
-export default RecentTransactions;
+export default PreviewRecentTransactions;

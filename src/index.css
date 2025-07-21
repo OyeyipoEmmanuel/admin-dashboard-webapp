@@ -3,7 +3,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  
+  overflow-x: hidden;
 }
 .primaryColor1 {
   color: #2d60ff;
